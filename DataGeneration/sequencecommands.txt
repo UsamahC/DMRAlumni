@@ -1,0 +1,54 @@
+CREATE SEQUENCE public.history_id_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 2147483647
+    CACHE 1;
+
+ALTER SEQUENCE public.history_id_seq
+    OWNER TO rwbbaawqsdqpie;
+
+
+    CREATE SEQUENCE public.medication_id_seq
+        INCREMENT 1
+        START 7
+        MINVALUE 1
+        MAXVALUE 2147483647
+        CACHE 1;
+
+    ALTER SEQUENCE public.medication_id_seq
+        OWNER TO rwbbaawqsdqpie;
+
+
+        CREATE SEQUENCE public.patients_id_seq
+    INCREMENT 1
+    START 8
+    MINVALUE 1
+    MAXVALUE 2147483647
+    CACHE 1;
+
+ALTER SEQUENCE public.patients_id_seq
+    OWNER TO rwbbaawqsdqpie;
+
+
+
+    CREATE SEQUENCE public.user_id_seq
+    INCREMENT 1
+    START 12
+    MINVALUE 1
+    MAXVALUE 2147483647
+    CACHE 1;
+
+ALTER SEQUENCE public.user_id_seq
+    OWNER TO rwbbaawqsdqpie;
+
+
+    CREATE SEQUENCE public.visits_id_seq
+    INCREMENT 1
+    START 3
+    MINVALUE 1
+    MAXVALUE 2147483647
+    CACHE 1;
+
+ALTER SEQUENCE public.visits_id_seq
+    OWNER TO rwbbaawqsdqpie;
