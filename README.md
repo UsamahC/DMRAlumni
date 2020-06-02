@@ -40,3 +40,5 @@ createData.sql. This file is random each time. To load it, go into the pgAdmin g
 using the open file button, and run it to add in the data. A copy of our database can be made using the createTables.sql file in the data
 generation folder in the query tool section. If you want to test more or less data, you can edit the number of doctors, number of patients,
 and the max number of visits in the createData.py file.
+
+*Parts adapted from https://github.com/robby867/316epilepsy 
