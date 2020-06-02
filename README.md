@@ -32,7 +32,7 @@ If you have run before, you can skip to the following steps:
 Visit the given address to access the app.
 
 ## How to run on Heroku
-Heroku is setup to deploy the app automatically for every push to master in the git repo. On Heroku, click "Open App" or visit https://dmr-db.herokuapp.com/ when the build has succeeded and the app has been deployed (in latest activity under "Overview"). If there is an error, view the logs under "More" next to "Open App."
+Heroku is setup to deploy the app automatically for every push to master in the git repo. On Heroku, click "Open App" or visit https://dukemensrowing.herokuapp.com/ when the build has succeeded and the app has been deployed (in latest activity under "Overview"). If there is an error, view the logs under "More" next to "Open App."
 
 ## Loading Production Dataset
 In order to generate the production dataset, run the createData.py file. This generatres a set of INSERT statements in a file called
